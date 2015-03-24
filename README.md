@@ -29,7 +29,7 @@ Contact
 =======
 Benchmark Maintainer: Jeffrey Svajlenko: jeff.svajlenko@gmail.com
 
-Judith F. Islam: judith.fran@gmail.com
+Judith F. Islam: judithfran@gmail.com
 
 Iman Keivanloo: iman.keivanloo@queensu.ca
 
