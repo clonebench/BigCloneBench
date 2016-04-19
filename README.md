@@ -14,20 +14,16 @@ This is an updated version of the ERA release.  There are some minor changes to 
 (( Files currently uploading, stay tuned. ))
 
 [BigCloneBench Database]()
-
-    This is the benchmark database.
+This is the benchmark database.
     
 [IJaDataset 2.0 + BigCloneBench Samples]()
-
-    This is the full IJaDataset - inter-project java source-code dataset, including modifications for BigCloneBench.
+This is the full IJaDataset - inter-project java source-code dataset, including modifications for BigCloneBench.
     
 [IJaDataset 2.0 - BigCloneBench Reduced Version]()
-
-    Most tools do not scale well to IJaDataset.  This version reduces the number of source files to only those which contain known true or false clones of the functionalities tagged in BigCloneBench.  This contains a folder per functionality with the source files containing tagged functions.  This reduces/removes the scalability challenge when measuring recall.  See instructions provided in the "Clone Deteciton Recall Tools" distributable for more details/suggestions.
+Most tools do not scale well to IJaDataset.  This version reduces the number of source files to only those which contain known true or false clones of the functionalities tagged in BigCloneBench.  This contains a folder per functionality with the source files containing tagged functions.  This reduces/removes the scalability challenge when measuring recall.  See instructions provided in the "Clone Deteciton Recall Tools" distributable for more details/suggestions.
     
 [Clone Detection Recall Tools](https://github.com/jeffsvajlenko/BigCloneBenchEval)
-
-    A collection of tools for measuring clone detection recall using the benchmark.  Based on the clone-deteciton experiment in [2].  Tools and instructions are kept in the linked github repository.  Clone the repository to get the latest version, and use git pull to update.
+A collection of tools for measuring clone detection recall using the benchmark.  Based on the clone-deteciton experiment in [2].  Tools and instructions are kept in the linked github repository.  Clone the repository to get the latest version, and use git pull to update.
 
 If you have any questions about this release, using the tools, or measuring recall, please contact us and we will be happy to assist.
 
