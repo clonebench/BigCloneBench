@@ -20,10 +20,10 @@ This is the full IJaDataset - inter-project java source-code dataset, including 
 [IJaDataset 2.0 - BigCloneBench Reduced Version](https://drive.google.com/file/d/0B70GNOiQD-X7b1lCRDBKakt6Tnc/view?usp=sharing):
 Most tools do not scale well to IJaDataset.  This version reduces the number of source files to only those which contain known true or false clones of the functionalities tagged in BigCloneBench.  This contains a folder per functionality with the source files containing tagged functions.  This reduces/removes the scalability challenge when measuring recall.  See instructions provided in the "Clone Deteciton Recall Tools" distributable for more details/suggestions.
     
-[Clone Detection Recall Tools](https://github.com/jeffsvajlenko/BigCloneBenchEval):
+[Clone Detection Recall Tools]():
 A collection of tools for measuring clone detection recall using the benchmark.  Based on the clone-deteciton experiment in [2].  Tools and instructions are kept in the linked github repository.  Clone the repository to get the latest version, and use git pull to update.
 
-If you have any questions about this release, using the tools, or measuring recall, please contact us and we will be happy to assist.
+If you have any questions or problems with this release, using the tools, or measuring recall, please contact us and we will be happy to assist.
 
 Derivative works using the benchmark should cite [1], while works using the recall measurement process should also cite [2].
 
