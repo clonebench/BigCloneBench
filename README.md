@@ -25,6 +25,8 @@ A collection of tools for measuring clone detection recall using the benchmark. 
 
 If you have any questions about this release, using the tools, or measuring recall, please contact us and we will be happy to assist.
 
+Derivative works using the benchmark should cite [1], while works using the recall measurement process should also cite [2].
+
 ERA Download (Old Version)
 ==========================
 This is a peer reviewed version of the benchmark, as described in our ICSME'14 ERA paper.  You should prefer to use the new version above, which is compatible with the clone detector evaluation tools.
