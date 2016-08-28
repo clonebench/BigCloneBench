@@ -3,32 +3,32 @@ BigCloneBench
 
 BigCloneBench is a clone detection benchmark of known clones in the IJaDataset source repository.  The current version of the benchmark, IJaDataset (with modifications), and tools for measuring clone detection recall are available below.
 
-Upcoming
-========
-We are currently working on a version with a significantly larger variety of clones (in terms of cloned functionalities).  Please look forward to this!  For now use the ERA Download "New Version" below.
+Derivative works using the benchmark should cite [1], while works using the recall measurement process should also cite [2] and [3].
+
+BigCloneEval
+============
+We have now released BigCloneEval, a framework for evaluating clone detection tools with BigCloneBench.  It is very easy to use, and comes with optimized versions of BigCloneBench and IJaDatset for evaluating clone detection tools.  You can use this version if you simply want to measure the recall of your clone detection tool.  Use the full BigCloneBench database if you want to implemetn a custom experiment over the data.
+
+BigCloneEval can be found [here](http://jeffsvajlenko.weebly.com/bigcloneeval.html).
+
+BigCloneBench Version 2
+=======================
+
+This is the latest version of BigCloneBench
 
 ERA Download (New Version)
 ==========================
-
-(Work-in-progress, please check back soon!)
 
 This is an updated version of the ERA release.  There are some minor changes to the database and IJaDataset to improve the quality of measured recall.  We have also released evaluation tools for measuring recall based on our work in [2].
 
 [BigCloneBench Database](https://drive.google.com/file/d/0B70GNOiQD-X7aDNaR2lwQ1NGeUk/view?usp=sharing):
 This is the benchmark database.
     
-[IJaDataset 2.0 + BigCloneBench Samples](https://drive.google.com/file/d/0B70GNOiQD-X7a2xRbGtXLXkxT1E/view?usp=sharing):
+[IJaDataset 2.0 + BigCloneBench Samples](https://drive.google.com/file/d/0B70GNOiQD-X7b1lCRDBKakt6Tnc/view?usp=sharing):
 This is the full IJaDataset - inter-project java source-code dataset, including modifications for BigCloneBench.
     
-[IJaDataset 2.0 - BigCloneBench Reduced Version](https://drive.google.com/file/d/0B70GNOiQD-X7b1lCRDBKakt6Tnc/view?usp=sharing):
+[IJaDataset 2.0 - BigCloneBench Reduced Version](https://drive.google.com/file/d/0B70GNOiQD-X7a2xRbGtXLXkxT1E/view?usp=sharing):
 Most tools do not scale well to IJaDataset.  This version reduces the number of source files to only those which contain known true or false clones of the functionalities tagged in BigCloneBench.  This contains a folder per functionality with the source files containing tagged functions.  This reduces/removes the scalability challenge when measuring recall.  See instructions provided in the "Clone Deteciton Recall Tools" distributable for more details/suggestions.
-    
-[Clone Detection Recall Tools]():
-A collection of tools for measuring clone detection recall using the benchmark.  Based on the clone-deteciton experiment in [2].  Tools and instructions are kept in the linked github repository.  Clone the repository to get the latest version, and use git pull to update.  ** Currently not available.  Will be posted ASAP.  Please check back soon or inquire. **
-
-If you have any questions or problems with this release, using the tools, or measuring recall, please contact us and we will be happy to assist.
-
-Derivative works using the benchmark should cite [1], while works using the recall measurement process should also cite [2].
 
 ERA Download (Old Version)
 ==========================
@@ -50,6 +50,8 @@ Publications
 [1] Jeffrey Svajlenko, Judith F. Islam, Iman Keivanloo, Chanchal K. Roy and Mohammad Mamun Mia, "Towards a Big Data Curated Benchmark of Inter-Project Code Clones", In Proceedings of the Early Research Achievements track of the 30th International Conference on Software Maintenance and Evolution (ICSME 2014), 5 pp., Victoria, Canada,  September 2014.
 
 [2] Jeffrey Svajlenko and Chanchal K. Roy, “Evaluating Clone Detection Tools with BigCloneBench”, In Proceedings of the 31st International Conference on Software Maintenance and Evolution (ICSME 2015), 10 pp., Bremen, Germany, September 2015.
+
+[3] Jeffrey Svjalenko and Chanchal K. Roy, "BigCloneEval: A Clone Detection Tool Evaluation Framework with BigCloneBench", In Proceedigns of the 32nd International Conference on Software Maintence and Evolution (ICSME 2016), to appear.
 
 Contact
 =======
