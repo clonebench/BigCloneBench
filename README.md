@@ -14,7 +14,7 @@ BigCloneEval can be found [here](http://jeffsvajlenko.weebly.com/bigcloneeval.ht
 BigCloneBench Version 2
 =======================
 
-This is the latest version of BigCloneBench
+The latest BigCloneBench is distributed with BigCloneEval [here](https://github.com/jeffsvajlenko/BigCloneEval).  It is significantly larger than the ERA version, and is distributed as a h2database file with a much simpler schema.  If you need the full BigCloneBench, with all the validation artifacts, please contact us and we can arrange to send you a copy (it is quite large).
 
 ERA Download (New Version)
 ==========================
