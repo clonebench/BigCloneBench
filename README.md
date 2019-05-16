@@ -34,9 +34,9 @@ ERA Download (Old Version)
 ==========================
 This is a peer reviewed version of the benchmark, as described in our ICSME'14 ERA paper.  You should prefer to use the new version above, which is compatible with the clone detector evaluation tools.
 
-[BigCloneBench Database](https://www.dropbox.com/s/asjubena3lef3qy/ERA_BigCloneBench_IJaDataset.tar.gz?dl=0)
+[BigCloneBench Database](https://www.dropbox.com/s/xg1vhrowg8zuqwn/ERA_database.tar.gz?dl=0)
 
-[IJaDataset 2.0 + BigCloneBench Samples](https://www.dropbox.com/s/ss7girwlqhxbniv/dataset.tar.gz?dl=0)
+[IJaDataset 2.0 + BigCloneBench Samples](https://www.dropbox.com/s/xg1vhrowg8zuqwn/ERA_database.tar.gz?dl=0)
 
 License
 =======
