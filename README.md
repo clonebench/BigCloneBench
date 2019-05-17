@@ -11,27 +11,32 @@ We have now released BigCloneEval, a framework for evaluating clone detection to
 
 BigCloneEval can be found [here](http://jeffsvajlenko.weebly.com/bigcloneeval.html).
 
-BigCloneBench Version 2
-=======================
+BigCloneBench Version 2 (**Use This Version**)
+==========================================
 
 The latest BigCloneBench is distributed with BigCloneEval [here](https://github.com/jeffsvajlenko/BigCloneEval).  It is significantly larger than the ERA version, and is distributed as a h2database file with a much simpler schema.  If you need the full BigCloneBench, with all the validation artifacts, please contact us and we can arrange to send you a copy (it is quite large).
 
-ERA Download (New Version)
-==========================
+ERA (Updated) 
+=============
+
+** This version is out of date.  I reccomend using the 2nd version included with BigCloneEval for a much larger dataset. **
 
 This is an updated version of the ERA release.  There are some minor changes to the database and IJaDataset to improve the quality of measured recall.  We have also released evaluation tools for measuring recall based on our work in [2].
 
 [BigCloneBench Database](https://www.dropbox.com/s/lncbr4irm5x1ota/era_bigclonebench.sql.tar.gz?dl=0):
 This is the benchmark database.
     
-[IJaDataset 2.0 + BigCloneBench Samples](https://www.dropbox.com/s/vdehom753d36fvz/era_bcb_sample.tar.gz?dl=0):
+[IJaDataset 2.0 + BigCloneBench Samples](https://www.dropbox.com/s/ss7girwlqhxbniv/dataset.tar.gz?dl=0):
 This is the full IJaDataset - inter-project java source-code dataset, including modifications for BigCloneBench.
     
 [IJaDataset 2.0 - BigCloneBench Reduced Version](https://www.dropbox.com/s/vdehom753d36fvz/era_bcb_sample.tar.gz?dl=0):
 Most tools do not scale well to IJaDataset.  This version reduces the number of source files to only those which contain known true or false clones of the functionalities tagged in BigCloneBench.  This contains a folder per functionality with the source files containing tagged functions.  This reduces/removes the scalability challenge when measuring recall.  See instructions provided in the "Clone Deteciton Recall Tools" distributable for more details/suggestions.
 
-ERA Download (Old Version)
+ERA Version 1
 ==========================
+
+** This version is out of date.  I reccomend using the 2nd version included with BigCloneEval for a much larger dataset. **
+
 This is a peer reviewed version of the benchmark, as described in our ICSME'14 ERA paper.  You should prefer to use the new version above, which is compatible with the clone detector evaluation tools.
 
 [BigCloneBench Database](https://www.dropbox.com/s/xg1vhrowg8zuqwn/ERA_database.tar.gz?dl=0)
