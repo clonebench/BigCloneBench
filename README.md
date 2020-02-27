@@ -18,6 +18,8 @@ The latest BigCloneBench is distributed with BigCloneEval [here](https://github.
 
 IJaDataset with the expanded files is available here: [IJaDataset 2.0 + BigCloneBench Samples](https://www.dropbox.com/s/ss7girwlqhxbniv/dataset.tar.gz?dl=0).
 
+BigCloneBench full database (postgresql) is available here: [BigCloneBench_Postgresql](https://www.dropbox.com/s/dooy62mrewn8b1o/bigclonebench.tar.gz?dl=0).
+
 ERA (Updated) 
 =============
 
