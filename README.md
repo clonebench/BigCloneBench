@@ -22,7 +22,7 @@ BigCloneBench full database (postgresql) is available here: [BigCloneBench_Postg
 
 Limits on OneDrive means for these large files it may be necissary to login before the files can be downloaded.
 
-ERA (Updated) 
+ERA (Outdated) 
 =============
 
 ** This version is out of date.  I reccomend using the 2nd version included with BigCloneEval for a much larger dataset. **
@@ -38,7 +38,7 @@ This is the full IJaDataset - inter-project java source-code dataset, including 
 [IJaDataset 2.0 - BigCloneBench Reduced Version](https://1drv.ms/u/s!AhXbM6MKt_yLj_Nsc798DA-UJ4DFew?e=fp157L):
 Most tools do not scale well to IJaDataset.  This version reduces the number of source files to only those which contain known true or false clones of the functionalities tagged in BigCloneBench.  This contains a folder per functionality with the source files containing tagged functions.  This reduces/removes the scalability challenge when measuring recall.  See instructions provided in the "Clone Deteciton Recall Tools" distributable for more details/suggestions.
 
-ERA Version 1
+ERA Version 1 (Outdated)
 ==========================
 
 ** This version is out of date.  I reccomend using the 2nd version included with BigCloneEval for a much larger dataset. **
