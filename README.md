@@ -51,7 +51,7 @@ This is a peer reviewed version of the benchmark, as described in our ICSME'14 E
 
 License
 =======
-Benchmark: The benchmark is distributed under the Creative Commons, Attribution-NonCommercial-NoDerivatives.  This license includes the benchmark database and its derivatives.  For attribution, please cite this page, and our publications below.  This data is provided free of charge for non-commercial and academic benchmarking and experimentation use.  If you would like to contribute to the benchmark, please contact us.  If you believe you intended usage may be restricted by the license, please contact us and we can discuss the possibilities.
+Benchmark: The benchmark is distributed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0). This license applies to the benchmark database and its derivatives. This data is provided free of charge for non-commercial and academic benchmarking and experimentation. For attribution, please cite this page and our publications below. If others build upon your extensions or derivatives, please ask that they similarly cite and attribute both this work and your own. If you believe your intended usage may be restricted by the license, please contact us and we can discuss the possibilities. If you would like to contribute to the benchmark, please contact us.
 
 IJaDataset: We distribute here IJaDataset 2.0 with additions and modifications for the benchmark.  The files contained within were crawled from open-source projects.  Their in-file licenses are maintained as-is.  Additionally, the benchmark database lists the source of each file, and their detected licensing.  IJaDataset 2.0 is from the SECold Project: http://www.secold.org/projects/seclone.
 
